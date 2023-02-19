@@ -1,0 +1,30 @@
+|func_nand
+a[0] => L_nand:claudinho:0:paulinho.a
+a[1] => L_nand:claudinho:1:paulinho.a
+a[2] => L_nand:claudinho:2:paulinho.a
+b[0] => L_nand:claudinho:0:paulinho.b
+b[1] => L_nand:claudinho:1:paulinho.b
+b[2] => L_nand:claudinho:2:paulinho.b
+x[0] <= L_nand:claudinho:0:paulinho.x
+x[1] <= L_nand:claudinho:1:paulinho.x
+x[2] <= L_nand:claudinho:2:paulinho.x
+
+
+|func_nand|L_nand:\claudinho:0:paulinho
+a => x.IN0
+b => x.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|func_nand|L_nand:\claudinho:1:paulinho
+a => x.IN0
+b => x.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|func_nand|L_nand:\claudinho:2:paulinho
+a => x.IN0
+b => x.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+
