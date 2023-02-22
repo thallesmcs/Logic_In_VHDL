@@ -6,7 +6,7 @@ entity L_nor is
 		a,b: in std_logic;
 		x: out std_logic
 		);
-end L_nand;
+end L_nor;
 
 architecture comportamento of L_nor is
 
